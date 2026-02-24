@@ -59,6 +59,6 @@ jobs:
                 git restore .;
                 git pull origin main;
                 echo "Install Package dan Build Project"
-                npm install
-                npm run build
+                npm install;
+                npm run build;
               }
