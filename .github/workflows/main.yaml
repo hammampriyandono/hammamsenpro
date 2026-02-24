@@ -32,7 +32,7 @@ jobs:
       
     steps:
       - name: Build app on VM
-        uses: appleboy/ssh-act-action@master
+        uses: appleboy/ssh-action@master
         with:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USERNAME }}
@@ -62,4 +62,3 @@ jobs:
                 npm install;
                 npm run build;
               }
-              
